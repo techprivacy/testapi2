@@ -3,6 +3,12 @@ GET http://localhost:3003/products
 ###
 
 POST http://localhost:3003/products
+Content-Type: application/json
+
+{
+    "name":"car",
+    "price":30
+}
 
 ###
 GET http://localhost:3003/
